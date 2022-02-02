@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any ban-types no-var
 // Type definitions for pouchdb-core 7.0
 // Project: https://pouchdb.com/, https://github.com/pouchdb/pouchdb
 // Definitions by: Simon Paulger <https://github.com/spaulg>, Jakub Navratil <https://github.com/trubit>,
@@ -7,8 +8,8 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.3
 
-/// <reference types="debug" />
-/// <reference types="pouchdb-find" />
+/// <reference types="../debug/index.d.ts" />
+/// <reference types="../pouchdb-find/index.d.ts" />
 /// <reference lib="dom" />
 
 interface Blob {

@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any ban-types
 // Type definitions for pouchdb-find 6.3
 // Project: https://pouchdb.com/, https://github.com/pouchdb/pouchdb
 // Definitions by: Jakub Navratil <https://github.com/trubit>
@@ -5,7 +6,7 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.3
 
-/// <reference types="pouchdb-core" />
+/// <reference types="../pouchdb-core/index.d.ts" />
 
 declare namespace PouchDB {
     namespace Find {

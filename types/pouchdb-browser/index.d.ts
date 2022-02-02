@@ -4,12 +4,12 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.3
 
-/// <reference types="pouchdb-core" />
-/// <reference types="pouchdb-adapter-idb" />
-/// <reference types="pouchdb-adapter-websql" />
-/// <reference types="pouchdb-adapter-http" />
-/// <reference types="pouchdb-mapreduce" />
-/// <reference types="pouchdb-replication" />
+/// <reference types="../pouchdb-core/index.d.ts" />
+/// <reference types="../pouchdb-adapter-idb/index.d.ts" />
+/// <reference types="../pouchdb-adapter-websql/index.d.ts" />
+/// <reference types="../pouchdb-adapter-http/index.d.ts" />
+/// <reference types="../pouchdb-mapreduce/index.d.ts" />
+/// <reference types="../pouchdb-replication/index.d.ts" />
 
 declare const PouchDb: PouchDB.Static;
 export = PouchDb;
