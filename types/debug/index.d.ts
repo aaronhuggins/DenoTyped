@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any no-var
 // Type definitions for debug 4.1
 // Project: https://github.com/visionmedia/debug
 // Definitions by: Seon-Wook Park <https://github.com/swook>
