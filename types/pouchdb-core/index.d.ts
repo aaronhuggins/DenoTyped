@@ -10,7 +10,7 @@
 
 /// <reference types="../debug/index.d.ts" />
 /// <reference types="../pouchdb-find/index.d.ts" />
-/// <reference lib="dom" />
+// TODO: Candidate for removal; may not be required in Deno. /// <reference lib="dom" />
 
 interface Blob {
     readonly size: number;
